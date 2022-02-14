@@ -23,6 +23,7 @@
     </LinearLayout>
 
     <LinearLayout
+        android:layout_marginTop="30dp"
 
         android:layout_weight="1"
         android:layout_width="match_parent"
@@ -65,13 +66,13 @@
         android:layout_height="wrap_content"
         android:hint="비밀번호 입력"></EditText>
 
-    <RadioButton
+    <CheckBox
         android:layout_marginVertical="10dp"
         android:layout_marginHorizontal="10sp"
 
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:text="자동 로그인"></RadioButton>
+        android:text="자동 로그인"></CheckBox>
 
     </LinearLayout>
 
@@ -87,12 +88,14 @@
         android:layout_height="wrap_content">
 
             <Button
+                android:layout_marginEnd="10dp"
 
                 android:layout_weight="1"
                 android:layout_width="0dp"
                 android:layout_height="wrap_content"
                 android:text="회원가입"></Button>
            <Button
+               android:layout_marginStart="10dp"
               android:layout_weight="1"
               android:layout_width="0dp"
               android:layout_height="wrap_content"
